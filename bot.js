@@ -9,7 +9,7 @@ const TOGETHER_AI_API_KEY = process.env.TOGETHER_AI_API_KEY;
 // Initialize the bot
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
 
-// Store user conversation history
+// Store user conversation historyy
 const userSessions = {};
 
 // Function to split large messages into chunks
